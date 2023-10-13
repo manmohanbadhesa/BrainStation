@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  /* Exercise 1 Make h1 italic */
+  h1 {
+    font-style: italic;
+    /* Exercise 1b Center h1 */
+    text-align: center;
+  }
+   
+  /* Exercise 2 Make ingredients blue */
+  .ingredients {
+    color: blue;
+  }
+   
+  /* Exercise 2 Make directions green */
+  .directions {
+    color: green;
+  }
+   
+  /* Exercise 2b Make secondaryHeading underlined */
+  .secondaryHeading {
+    text-decoration: underline;
+  }
+   
+  /* Exercise 2c Make body background dark grey */
+  body {
+    background: darkgray;
+  }
+   
+  /* Exercise 2d Make recipeCard white, and 50% width */
+  #recipeCard {
+    background-color: white;
+    width: 50%;
+  }

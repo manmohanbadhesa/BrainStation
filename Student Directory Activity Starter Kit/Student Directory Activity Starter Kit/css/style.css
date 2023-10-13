@@ -1,0 +1,12 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 740px;
+    margin: 40px auto;
+}
+
+
+/* Your CSS starts here */
+
+.description {
+    font-style: italic;
+}

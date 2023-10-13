@@ -1,0 +1,12 @@
+.titlename {
+    width: 500px; 
+    margin-left:50%; 
+    text-align: center;
+    color: white;
+    /* border-style: solid;  */
+    border: 5px solid;
+    background-color: black;
+    
+
+}
+
