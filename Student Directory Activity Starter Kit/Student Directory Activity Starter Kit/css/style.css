@@ -10,3 +10,8 @@ body {
 .description {
     font-style: italic;
 }
+
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/dice-2.css');
+
+
+

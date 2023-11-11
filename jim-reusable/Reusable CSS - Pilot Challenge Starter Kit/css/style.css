@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+    font-size: 90%;
+}
+
+body, * {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body.component-example {
+    padding: 3rem;
+}
+
+body.component-example,
+body.component-example > * {
+    margin: 0 auto;
+    display: block;
+}
+
+body.component-example h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+body.component-example .card {
+    max-width: 21rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: auto;
+    max-width: 70rem;
+    padding: 0 2rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 15rem;
+}
+
+.content .card {
+    width: calc(33% - 1.5rem);
+    margin-bottom: 40px;
+}
+
+/* Your code starts here */
+.btn {
+    display: flex;
+    background-color: #fbdc38;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    width: max-content;
+}
+
+.btn:hover {
+    background-color: #b7a026;
+}
+
+.btn:focus {
+    background-color: #85741c;
+}
+
+body.component-example .card, .card {
+    border: solid black 2px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+
+body.component-example .card .category, .card .category {
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+.is-rounded {
+    border-radius: 10px;
+}
+
+.card .heading {
+    margin-bottom: 0;
+}
+
+.card .description {
+    height: 100%;
+    line-height: 22px;
+}
+
+.has-shadow {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.intro .title {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.nav ul li {
+    margin: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.header #logo {
+    height: 40px;
+}
+
+.header {
+    border-bottom: solid 1px grey;
+}
+
+.image-card {
+    overflow: hidden;
+    border: none;
+    padding: 0;
+}
+
+.image-card .image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    border-top: solid 1px grey;
+}
+
+.footer .wrapper {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.footer .wrapper .nav {
+    display: flex;
+    justify-content: flex-end;
+}

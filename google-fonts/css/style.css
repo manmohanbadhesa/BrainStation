@@ -1,0 +1,15 @@
+h1 {
+    font-family: "Roboto", sans-serif;
+  }
+   
+  .thin {
+    font-weight: 100;
+  }
+   
+  .reg {
+    font-weight: 400;
+  }
+   
+  .pixel {
+    font-family: "Pixelify Sans", sans-serif;
+  }

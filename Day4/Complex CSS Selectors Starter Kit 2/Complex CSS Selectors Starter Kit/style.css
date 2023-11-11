@@ -1,0 +1,73 @@
+blockquote {
+    background-color: lightgrey;
+} 
+
+body {
+    background-color: teal;
+}
+
+button:disabled {
+    border-color: chartreuse;
+}
+
+a[href="https://facebook.com"] {
+    font-weight: bold;
+}
+
+.callout {
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+blockquote a {
+    color: darkgray;
+}
+
+.callout span {
+    color:red ;
+}
+
+.bold, .fancy {
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+}
+
+ul > li:first-child{
+    margin-top: 50px;
+}
+
+**** QUESTION ****
+
+ul  li:last-child{
+    border: 3px brown solid;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+/* h1, h2 {
+    color: goldenrod;
+}
+
+**** QUESTION ****
+
+h1 + h2 {
+    margin-top: 0;
+}
+
+ul > li {
+    font-style: italic;
+}
+
+ul > li:nth-child() {
+    color: darkorange ;
+} */
+
+
+
+
+
+
+

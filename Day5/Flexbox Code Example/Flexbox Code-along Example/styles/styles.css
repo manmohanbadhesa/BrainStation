@@ -1,0 +1,81 @@
+/* Box-sizing border-box */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	margin: 0;
+}
+
+/* Typography. */
+
+.primary-font-family {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Flex the parent container. */
+
+.container {
+	border-width: 10px;
+	border-style: solid;
+	border-color: #FFA500;
+	min-height: 100vh;
+	display: flex;
+	/* flex-direction: row; */
+	/* justify-content: space-between; */
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/* Then flex, and apply flex-properties to childen */
+
+.box {
+  font-size: 40px;
+  padding: 10px; 
+  /* width: 10rem; */
+  width: calc(100% / 5);  
+  height: 10rem;
+}
+
+.box-1 { 
+	background: #B3B7EE;
+}
+.box-2 { 
+	background: #3498db
+}
+.box-3 { 
+	background: #dedcee;
+}
+.box-4 { 
+	background: #BFD7EA;
+}
+.box-5 { 
+	background: #FF6663;
+	/* align-self: flex-start; */
+}
+.box-6 { 
+	background: #FFAC81;
+}
+.box-7 { 
+	background: #FF928B;
+}
+.box-8 { 
+	background: #FEC3A6;
+}
+.box-9 { 
+	background: #EFE9AE;
+}
+.box-10 { 
+	background: #CDEAC0;
+}
+
+/* More colours available at following sites:
+
+COOLORS - https://coolors.co/
+LOL COLOURS - https://www.webdesignrankings.com/resources/lolcolors/;
+NEIL ORANGE PEEL - http://colours.neilorangepeel.com/ 
+HAIL PIXEL - https://color.hailpixel.com/
+
+*/
+
+
+/*BONUS: We haven't used 'CALC' before. Do some Googling and look into this*/
+
